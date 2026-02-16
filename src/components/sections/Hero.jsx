@@ -5,16 +5,16 @@ function Hero() {
   const [current, setCurrent] = useState(0);
 
   const slides = [
-    "/src/assets/images/one.jpg",
-    "/src/assets/images/two.jpg",
-    "/src/assets/images/three.jpg",
-    "/src/assets/images/four.jpg",
-    "/src/assets/images/five.jpg",
-    "/src/assets/images/six.jpg",
-    "/src/assets/images/seven.jpg",
-    "/src/assets/images/eight.jpg",
-    "/src/assets/images/nine.jpg",
-  ];
+  "/images/one.jpg",
+  "/images/two.jpg",
+  "/images/three.jpg",
+  "/images/four.jpg",
+  "/images/five.jpg",
+  "/images/six.jpg",
+  "/images/seven.jpg",
+  "/images/eight.jpg",
+  "/images/nine.jpg",
+];
 
   // ⭐ captions added (NEW)
   const captions = [

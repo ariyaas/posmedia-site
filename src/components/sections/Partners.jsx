@@ -1,20 +1,19 @@
 function Partners() {
-  const logos = [
-    "/src/assets/partners/1.png",
-    "/src/assets/partners/2.png",
-    "/src/assets/partners/3.png",
-    "/src/assets/partners/4.png",
-    "/src/assets/partners/5.png",
-    "/src/assets/partners/6.png",
-    "/src/assets/partners/7.png",
-    "/src/assets/partners/8.png",
-    "/src/assets/partners/9.png",
-    "/src/assets/partners/10.png",
-    "/src/assets/partners/11.png",
-    "/src/assets/partners/12.png",
-    "/src/assets/partners/13.png",
-  ];
-
+ const logos = [
+  "/partners/1.png",
+  "/partners/2.png",
+  "/partners/3.png",
+  "/partners/4.png",
+  "/partners/5.png",
+  "/partners/6.png",
+  "/partners/7.png",
+  "/partners/8.png",
+  "/partners/9.png",
+  "/partners/10.png",
+  "/partners/11.png",
+  "/partners/12.png",
+  "/partners/13.png",
+];
   return (
 <section className="bg-white py-12 sm:py-16 overflow-hidden">
       {/* ORANGE TITLE (outside blue strip) */}

@@ -13,7 +13,7 @@ function Services() {
           
           {/* LEFT IMAGE */}
           <img
-            src="/src/assets/images/service_3.png"
+            src="/images/service_3.png"
             className="rounded-xl shadow-xl"
           />
 
@@ -48,7 +48,7 @@ function Services() {
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
           <img
-            src="/src/assets/images/printer1.jpg"
+            src="/images/printer1.jpg"
             className="rounded-xl shadow-2xl"
           />
 

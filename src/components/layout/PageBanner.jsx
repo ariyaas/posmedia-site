@@ -3,7 +3,7 @@ function PageBanner({ title }) {
     <section className="relative h-[24vh] sm:h-[30vh] md:h-[38vh] lg:h-[45vh] overflow-hidden">
 
       <img
-        src="/src/assets/images/bannerimage.png"
+        src="/images/bannerimage.png"
         className="absolute inset-0 w-full h-full object-cover object-center"
       />
 

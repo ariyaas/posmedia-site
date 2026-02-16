@@ -6,7 +6,7 @@ function Footer() {
       {/* BACKGROUND IMAGE */}
       <div className="absolute inset-0">
         <img
-  src="/src/assets/images/footer.png"
+  src="/images/footer.png"
   alt="Footer background"
   className="w-full h-full object-cover opacity-70"
 />
@@ -18,7 +18,7 @@ function Footer() {
 <div className="relative max-w-7xl mx-auto px-4 py-12 sm:py-14 grid gap-10 sm:gap-12 md:grid-cols-2 lg:grid-cols-4 font-body">
         {/* LOGO + ABOUT */}
         <div>
-          <img src="/src/assets/logo/logo.png" className="w-32 mb-6"/>
+          <img src="/logo/logo.png" className="w-32 mb-6"/>
 
           <p className="text-gray-300 leading-7">
             Through our dedicated efforts and commitment to quality,

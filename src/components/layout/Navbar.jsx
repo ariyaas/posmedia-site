@@ -18,13 +18,13 @@ function Navbar() {
 <nav className="sticky top-[30px] sm:top-[37px] w-full z-30 bg-white border-b border-gray-200 py-1.5 xl:py-2 font-body relative">     <div className="w-full px-[5%] flex items-center justify-between">          {/* LOGO + BADGE (FINAL OPTIMIZED IMAGES) */}
          <div className="flex items-center gap-6 justify-start">
             <img
-              src="/src/assets/logo/logo.png"
+              src="/logo/logo.png"
               alt="POS Media Logo"
              className="h-[42px] sm:h-[46px] lg:h-[60px] w-auto"
             />
 
             <img
-              src="/src/assets/logo/badge.png"
+              src="/logo/badge.png"
               alt="20 Years Experience"
 className="hidden xl:block h-[50px] xl:h-[64px] w-auto"            />
           </div>
@@ -94,7 +94,7 @@ className="hidden xl:block h-[50px] xl:h-[64px] w-auto"            />
 
     {/* TOP LOGO + CLOSE */}
     <div className="flex items-center justify-between mb-10">
-      <img src="/src/assets/logo/logo.png" alt="logo" className="h-12" />
+      <img src="/logo/logo.png" alt="logo" className="h-12" />
       <X size={28} onClick={() => setMenuOpen(false)} className="cursor-pointer" />
     </div>
 
@@ -131,11 +131,11 @@ className="hidden xl:block h-[50px] xl:h-[64px] w-auto"            />
     </div>
 
     {/* CTA BUTTON */}
-    <div className="mt-auto">
+    <div className="mt-2">
       <Link
   to="/contact"
   onClick={() => setMenuOpen(false)}
-  className="block text-center w-full bg-brandOrange hover:bg-brandOrangeHover text-white py-4 rounded-lg text-lg mt-8"
+  className="block text-center w-full bg-brandOrange hover:bg-brandOrangeHover text-white py-2 rounded-lg text-lg mt-8"
 >
   Get Quote →
 </Link>

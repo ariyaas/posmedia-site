@@ -14,7 +14,7 @@ function About() {
           {/* LEFT IMAGE */}
           <div className="relative group">
             <img
-              src="/src/assets/images/aboutteam.png"
+              src="/images/aboutteam.png"
               className="rounded-xl shadow-2xl w-fullgroup-hover:scale-105 transition duration-700 ease-out"
             />
 
@@ -66,7 +66,7 @@ function About() {
 
           {/* CARD 1 */}
           <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg hover:-translate-y-3 transition-all duration-700 ease-out">
-            <img src="/src/assets/images/img_01.jpg" className="rounded-lg mb-6"/>
+            <img src="/images/img_01.jpg" className="rounded-lg mb-6"/>
             <h3 className="font-semibold text-xl mb-3">Company History</h3>
             <p className= " font-['Poppins'] text-gray-600 text-sm leading-7">
               Established in 2004, we began with flex and vinyl printing and
@@ -76,7 +76,7 @@ function About() {
 
           {/* CARD 2 */}
           <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg hover:-translate-y-3 transition-all duration-700 ease-out">
-            <img src="/src/assets/images/custmsoln_02.png" className="rounded-lg mb-6"/>
+            <img src="/images/custmsoln_02.png" className="rounded-lg mb-6"/>
             <h3 className="font-semibold text-xl mb-3">Custom Made Solutions</h3>
             <p className=" font-['Poppins'] text-gray-600 text-sm leading-7">
               We deliver tailored branding solutions aligned perfectly with
@@ -86,7 +86,7 @@ function About() {
 
           {/* CARD 3 */}
           <div className="bg-white p-6 sm:p-8 rounded-xl shadow-lg hover:-translate-y-3 transition-all duration-700 ease-out">
-            <img src="/src/assets/images/custmsatisy_03.png" className="rounded-lg mb-6"/>
+            <img src="/images/custmsatisy_03.png" className="rounded-lg mb-6"/>
             <h3 className="font-semibold text-lg sm:text-xl mb-3">Customer Satisfaction</h3>
             <p className= " font-['Poppins'] text-gray-600 text-sm leading-7">
               Our commitment to quality and after-sales service has made us a
@@ -105,14 +105,14 @@ function About() {
           Our Team
         </h2>
 
-        <p className=" font-['Poppins'] max-w-3xl mx-autotext-gray-600 text-sm sm:text-base mb-12 sm:mb-16">
+        <p className=" font-['Poppins'] max-w-3xl mx-auto text-gray-600 text-sm sm:text-base mb-12 sm:mb-16">
           Our leadership team drives consistent growth and success with
           innovation, creativity and dedication to excellence.
         </p>
 
         <div className="max-w-5xl mx-auto px-4">
           <img
-            src="/src/assets/images/our_team.png"
+            src="/images/our_team.png"
             className="rounded-xl shadow-2xl hover:scale-105 transition duration-700"
           />
         </div>

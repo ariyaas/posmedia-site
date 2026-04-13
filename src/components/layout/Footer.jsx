@@ -61,11 +61,11 @@ function Footer() {
 
           {/* PHONE */}
           <p className="flex items-center gap-2 text-gray-300 mb-2">
-            <Phone size={16}/> Tel: 04 258 9 258
+            <Phone size={16}/> Tel: +971 4 258 9 258
           </p>
 
           <p className="flex items-center gap-2 text-gray-300 mb-2">
-            <Phone size={16}/> Fax: 04 258 9 259
+            <Phone size={16}/> Fax: +971 4 258 9 259
           </p>
 
           <p className="flex items-center gap-2 text-gray-300 mb-2">
@@ -95,8 +95,8 @@ function Footer() {
 
       {/* COPYRIGHT */}
       <div className="relative border-t border-white/20 text-center py-6 text-gray-300 font-body">
-        © Copyright 2025 All Rights Reserved — Design by 
-        <span className="text-brandOrange"> CES</span>
+        © Copyright 2026 All Rights Reserved — Design by 
+        <span className="text-brandOrange"> ECS</span>
       </div>
 
     </footer>

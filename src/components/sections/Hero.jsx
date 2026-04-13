@@ -6,7 +6,7 @@ function Hero() {
 
   const slides = [
   "/images/one.jpg",
-  "/images/two.jpg",
+  
   "/images/three.jpg",
   "/images/four.jpg",
   "/images/five.jpg",

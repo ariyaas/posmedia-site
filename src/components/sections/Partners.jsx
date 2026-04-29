@@ -1,18 +1,18 @@
 function Partners() {
- const logos = [
-  "/partners/1.png",
-  "/partners/2.png",
-  "/partners/3.png",
-  "/partners/4.png",
-  "/partners/5.png",
-  "/partners/6.png",
-  "/partners/7.png",
-  "/partners/8.png",
-  "/partners/9.png",
-  "/partners/10.png",
-  "/partners/11.png",
-  "/partners/12.png",
-  "/partners/13.png",
+const logos = [
+  "/partners/brandlogo-01.jpg",
+  "/partners/brandlogo-02.jpg",
+  "/partners/brandlogo-03.jpg",
+  "/partners/brandlogo-04.jpg",
+  "/partners/brandlogo-05.jpg",
+  "/partners/brandlogo-06.jpg",
+  "/partners/brandlogo-07.jpg",
+  "/partners/brandlogo-08.jpg",
+  "/partners/brandlogo-09.jpg",
+  "/partners/brandlogo-10.jpg",
+  "/partners/brandlogo-11.jpg",
+  "/partners/brandlogo-12.jpg",
+  "/partners/brandlogo-13.jpg",
 ];
   return (
 <section className="bg-white py-12 sm:py-16 overflow-hidden">

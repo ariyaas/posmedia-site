@@ -18,7 +18,7 @@ function Footer() {
 <div className="relative max-w-7xl mx-auto px-4 py-12 sm:py-14 grid gap-10 sm:gap-12 md:grid-cols-2 lg:grid-cols-4 font-body">
         {/* LOGO + ABOUT */}
         <div>
-          <img src="/logo/logo.png" className="w-32 mb-6"/>
+          <img src="/logo/nposlogo.jpg" className="w-1/4 mb-6"/>
 
           <p className="text-gray-300 leading-7">
             Through our dedicated efforts and commitment to quality,
@@ -78,17 +78,36 @@ function Footer() {
           </p>
 
           {/* SOCIAL */}
-          <div className="flex gap-4 mt-6">
-            <div className="bg-white/20 p-3 rounded-full hover:bg-brandOrange cursor-pointer transition">
-              <Facebook size={18}/>
-            </div>
-            <div className="bg-white/20 p-3 rounded-full hover:bg-brandOrange cursor-pointer transition">
-              <Instagram size={18}/>
-            </div>
-            <div className="bg-white/20 p-3 rounded-full hover:bg-brandOrange cursor-pointer transition">
-              <Youtube size={18}/>
-            </div>
-          </div>
+         <div className="flex gap-4 mt-6">
+
+  <a
+    href="https://www.facebook.com/profile.php?id=61559099493937"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white/20 p-3 rounded-full hover:bg-brandOrange transition"
+  >
+    <Facebook size={18}/>
+  </a>
+
+  <a
+    href="https://www.instagram.com/posmedia_ae?igsh=MTJzMWhrejRkbXRhcA=="
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white/20 p-3 rounded-full hover:bg-brandOrange transition"
+  >
+    <Instagram size={18}/>
+  </a>
+
+  <a
+    href="https://youtube.com/@posmedia-l8t?si=DrTYTpE0i23Nljhb"   // 🔁 replace with your real YouTube link
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-white/20 p-3 rounded-full hover:bg-brandOrange transition"
+  >
+    <Youtube size={18}/>
+  </a>
+
+</div>
         </div>
 
       </div>

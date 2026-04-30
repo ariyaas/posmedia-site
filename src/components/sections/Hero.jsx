@@ -52,16 +52,19 @@ function Hero() {
       ))}
 
       {/* ⭐ GRADIENT OVERLAY (small bottom fade for text) */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent"></div>
+     {/* ⭐ GRADIENT OVERLAY (small bottom fade for text) */}
+<div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" style={{ zIndex: 15 }}></div>
 
       {/* ⭐ SMALL CAPTION TEXT */}
-      {/* ⭐ ANIMATED CAPTION */}
-<div className="absolute bottom-16 sm:bottom-20 md:bottom-24 left-1/2 -translate-x-1/2 z-30 overflow-hidden">
+     {/* ⭐ ANIMATED CAPTION */}
+<div className="absolute bottom-16 sm:bottom-20 md:bottom-24 left-1/2 -translate-x-1/2 overflow-hidden">
   <p
     key={current} 
     className="font-['Anton'] text-white text-sm sm:text-xl md:text-2xl tracking-wider
                bg-black/40 backdrop-blur-md px-6 py-2 rounded-full
                animate-caption"
+    // Add this style to ensure it stays behind navbar
+    style={{ zIndex: 20 }}
   >
     {captions[current]}
   </p>
